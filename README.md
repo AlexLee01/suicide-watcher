@@ -1,7 +1,5 @@
 # suicide-watcher
 
-# AI Model API and Blog Website
-
 This repository contains an API interface for our AI model as well as a simple blog website. The API interface is implemented using Flask, and it serves as a backend service for the trained model, providing detection for the suicide risk level of posts.
 
 The blog website provides users and administrators login functionality. On the user page, after logging in, users can create blog posts. The appropriate support resources, helpline numbers and mental health organizations, will be suggested to the individual in need once the post content indicating suicidal tendencies. 
