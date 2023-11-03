@@ -1,0 +1,109 @@
+.background {
+  background-image: url("../image/BackGround_Log.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  margin: 1rem 0;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form label {
+  flex-basis: 150px;
+  font-weight: bold;
+  margin-top: 30px;
+  
+ 
+ 
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 30px;
+  
+  margin-top: 30px;
+}
+
+.form button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.form button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e0eaee;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Continue{
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.Continue:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Continue:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.notice{
+  margin-left: 50px;
+}

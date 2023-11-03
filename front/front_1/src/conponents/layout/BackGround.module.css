@@ -1,0 +1,9 @@
+.Background {
+  background-image: url("../image/BackGround_Log.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,60 @@
+
+.form {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .control label {
+    flex-basis: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  
+  .control input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+  .control textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; 
+  }
+
+
+
+  .action {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.action:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.action:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  }
+
+
